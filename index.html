@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Sa Curva</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="logo.jpg" alt="Bar Sa Curva Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h1>Bienvenidos a Bar Sa Curva</h1>
+                <p>El mejor lugar para disfrutar de buena comida, snacks y bebida con un aire joven y fresco.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section">
+        <h2>Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Plato 1</h3>
+                <p>Descripción del plato 1.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Plato 2</h3>
+                <p>Descripción del plato 2.</p>
+            </div>
+            <!-- Agrega más platos según sea necesario -->
+        </div>
+    </section>
+
+    <section id="ubicacion" class="section">
+        <h2>Ubicación</h2>
+        <p>Carrer Ramon Llull, 23, 07240, Sant Joan, Mallorca</p>
+        <p>Horario:</p>
+        <ul>
+            <li>9:00 - 13:30</li>
+            <li>16:00 - 20:00</li>
+        </ul>
+    </section>
+
+    <section id="galeria" class="section">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="foto1.jpg" alt="Foto 1" class="gallery-item">
+            <img src="foto2.jpg" alt="Foto 2" class="gallery-item">
+            <img src="foto3.jpg" alt="Foto 3" class="gallery-item">
+            <!-- Agrega más fotos según sea necesario -->
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Bar Sa Curva. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
